@@ -4,6 +4,7 @@ body{
 	padding: 0 5%;
 }
 h1{
+	font-size: 300%;
 	text-align: center;
 }
 
@@ -12,22 +13,26 @@ h1{
   	animation-name: slidein;
   	animation-iteration-count: infinite;
   	animation-direction: alternate;
+	border-radius: 10px;
+	box-shadow: 10px 10px 10px;
 }
 
 @keyframes slidein {
 	from {
     		margin-left: 100%;
-    		width: 100%;
+    		width: 75%;
 		-ms-transform: rotate(360deg); 
    		-webkit-transform: rotate(360deg);
     		transform: rotate(360deg); 
+		opacity: 0;	
   	}
 
   	to {
     		margin-left: 0%;
-    		width: 50%;
+    		width: 25%;
 		-ms-transform: rotate(0deg); 
     		-webkit-transform: rotate(0deg);
     		transform: rotate(0deg);
-  	}
+		opacity: 1; 
+ 	}
 }
