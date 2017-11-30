@@ -17,11 +17,17 @@ h1{
 @keyframes slidein {
 	from {
     		margin-left: 100%;
-    		width: 100%; 
+    		width: 100%;
+		-ms-transform: rotate(360deg); 
+   		-webkit-transform: rotate(360deg);
+    		transform: rotate(360deg); 
   	}
 
   	to {
     		margin-left: 0%;
     		width: 50%;
+		-ms-transform: rotate(0deg); 
+    		-webkit-transform: rotate(0deg);
+    		transform: rotate(0deg);
   	}
 }
