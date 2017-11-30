@@ -1,5 +1,8 @@
 body{
-	background-color: #83f15d;
+	background-color: #fff4f4;
 	font-family: helvetica;
+	padding: 0 5%;
 }
-
+h1{
+	text-align: center;
+}
