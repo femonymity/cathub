@@ -7,6 +7,13 @@ h1{
 	font-size: 300%;
 	text-align: center;
 }
+.intro{
+	background-color: #eeeeee;
+	padding: 2% 3%;
+	border-radius: 5px;
+	border: 1px solid #cccccc;
+	box-shadow: 10px 10px 10px #dddddd;
+}
 
 #front-image{
 	animation-duration: 3s;
