@@ -15,19 +15,32 @@ h1{
 	box-shadow: 10px 10px 10px #dddddd;
 }
 
-#front-image{
+#front-image-1{
+	position: absolute;
+	margin: 5% 0;
 	animation-duration: 3s;
-  	animation-name: slidein;
+  	animation-name: slideInFromRight;
+  	animation-iteration-count: infinite;
+  	animation-direction: alternate;
+	border-radius: 10px;
+	box-shadow: 10px 10px 10px;
+}
+#front-image-2{
+	position: absolute;
+	margin: 5% 0;
+	animation-duration: 3s;
+  	animation-name: slideInFromLeft;
   	animation-iteration-count: infinite;
   	animation-direction: alternate;
 	border-radius: 10px;
 	box-shadow: 10px 10px 10px;
 }
 
-@keyframes slidein {
+
+@keyframes slideInFromRight {
 	from {
     		margin-left: 100%;
-    		width: 75%;
+    		width: 25%;
 		-ms-transform: rotate(360deg); 
    		-webkit-transform: rotate(360deg);
     		transform: rotate(360deg); 
@@ -36,6 +49,26 @@ h1{
 
   	to {
     		margin-left: 0%;
+    		width: 25%;
+		-ms-transform: rotate(0deg); 
+    		-webkit-transform: rotate(0deg);
+    		transform: rotate(0deg);
+		opacity: 1; 
+ 	}
+}
+
+@keyframes slideInFromLeft {
+	from {
+    		margin-left: 0%;
+    		width: 25%;
+		-ms-transform: rotate(360deg); 
+   		-webkit-transform: rotate(360deg);
+    		transform: rotate(360deg); 
+		opacity: 0;	
+  	}
+
+  	to {
+    		margin-left: 64%;
     		width: 25%;
 		-ms-transform: rotate(0deg); 
     		-webkit-transform: rotate(0deg);
