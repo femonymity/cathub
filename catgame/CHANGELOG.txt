@@ -1,0 +1,16 @@
+TO DO
+/-give npcs a can_move flag, for reaction algorithm
+/-fix npcs so they flip image while chasing
+/-update make_dijkstra to take goal params & flee flag
+/-implement flee dijkstra & tell npcs to flee when below 50% health
+/-teach npcs to atk & damage player once in range
+/-make a proper game-over screen in case of death
+~-improve cave generation
+/-improve fps by reducing dijkstra processes
+/-add a game frame to print stats & msgs in
+/-add HP bar & minimap to game_frame
+/-add HP regen for player & NPCs
+/-fix self.dir for npcs to face the player in intuitive way
+/-fix self.dir for player to face objects they bump into
+/-add scratch marks to show npc has taken damage
+-copy/edit script structure for pyjsdl processing
